@@ -1,10 +1,22 @@
-
+@import url(https://fonts.googleapis.com/css?family=BenchNine:400,700);
+@import url(../fonts/mxdvs-themes-embedded.css);
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    font-family: "Andale Mono", Helvetica Neue, Helvetica, Arial, sans-serif;
+    background-color: #F1EFEE;
+    padding: 0;
+    margin: 0;
+    /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-size: 11px;
+    color: #000000;
+}
 
-
+#header, h1 {
+    font-family: "BenchNine", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
 
 
 
