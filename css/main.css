@@ -14,8 +14,103 @@ body {
     color: #000000;
 }
 
-#header, h1 {
+a {
+    color: #555555;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000000;
+}
+
+h1 {
     font-family: "BenchNine", Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+#header {
+    width: 100%;
+    padding: 40px 0 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#sidebar {
+    float: right;
+    margin: 0 0 0 30px;
+    position: relative;
+    min-width: 200px;
+    
+    padding: 20px 0 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 30px 0 0;
+}
+
+#content {
+    float: left;
+    margin: 20px 0;
+    max-width: 760px;
+    overflow: visible !important;
+    /*float: right;*/
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#header h1 {
+    /*font-size: 14px;*/
+    font-weight: 400;
+    line-height: 100%;
+    margin: 50px 0;
+    letter-spacing: 5px;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    white-space: nowrap;
+    width: 100%;
+    color: #000000;
+    text-align: left;
+}
+
+#sidebar #links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar #links a {
+    border-right: 0 solid #000000;
+    display: block;
+    font-size: 9px;
+    letter-spacing: 1px;
+    margin: 0 0 4px;
+    padding: 7px 10px 6px;
+    text-transform: uppercase;
+    color: #000000;
+    background: rgba(0,0,0, 0.1);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#sidebar #links a:hover {
+    padding: 7px 10px 6px;
+    border-right: #000000 20px solid;
+}
+
+
+#profile > img {
+    width: 100%;
+    max-width: 319px;
 }
 
 
